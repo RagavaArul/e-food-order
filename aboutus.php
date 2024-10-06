@@ -14,11 +14,6 @@ else
 {
 	$cust_id="";
 }
- 
-
-
-
-
 
 $query=mysqli_query($con,"select  tblvendor.fld_name,tblvendor.fldvendor_id,tblvendor.fld_email,
 tblvendor.fld_mob,tblvendor.fld_address,tblvendor.fld_logo,tbfood.food_id,tbfood.foodname,tbfood.cost,
